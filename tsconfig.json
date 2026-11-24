@@ -1,0 +1,9 @@
+{
+    "include": ["server.ts", "config.ts", "handlers", "typings"],
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "allowImportingTsExtensions": true
+    }
+}
